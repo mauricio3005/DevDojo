@@ -11,5 +11,11 @@ public class Aula02TiposPrimitivos {
         long numeroInteiroGrande = 10000000000000L;
         boolean falsoOuVerdadeiro = false;
         falsoOuVerdadeiro=true;
+        int idade = (int)10000L;
+        //Isso é casting, forçada a entrada do valor.
+        //Se passar do tamanho, elev ai até o limite.
+        String nome = "Um graaande texto";
+        //String é um objeto, e não um tipo primitivo
+        var sd = 11;
     }
 }
